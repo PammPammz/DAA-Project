@@ -33,7 +33,14 @@ src/
   preprocessing.py             membersihkan data
   uji_contoh_slide.py          menguji algoritma dengan contoh di slide kuliah
   uji_bnb_vs_brute_force.py    memastikan B&B selalu sama dengan Brute Force (optimal)
-hasil/                         tabel dan grafik eksperimen
+  eksperimen.py                menjalankan semua algoritma untuk skenario 1 dan 2
+  grafik.py                    membuat grafik dari hasil eksperimen
+hasil/
+  skenario1_mentah.csv         satu baris per percobaan (skenario 1)
+  skenario2_mentah.csv         satu baris per percobaan (skenario 2)
+  ringkasan_per_n.csv          rata-rata per skenario, n, dan algoritma
+  ringkasan_per_algoritma.csv  rata-rata per skenario dan algoritma
+  grafik_*.png                 grafik waktu, kualitas solusi, dan simpul B&B
 docs/                          makalah dan slide presentasi
 ```
 
@@ -43,14 +50,17 @@ pip install -r requirements.txt
 python src/preprocessing.py
 python src/uji_contoh_slide.py
 python src/uji_bnb_vs_brute_force.py
+python src/eksperimen.py
 ```
+
+Eksperimen: setiap kombinasi n × jenis kelamin dijalankan dengan 10 seed (sampel acak berbeda). Waktu Greedy dan B&B adalah median dari 5 kali pengulangan; Brute Force dijalankan sekali. Pembanding optimal di skenario 1 adalah Brute Force, di skenario 2 adalah Branch and Bound.
 
 ## Status
 - [x] Preprocessing data
 - [x] Brute Force
 - [x] Greedy (by profit, by weight, by density)
 - [x] Branch and Bound (best-first, bound dari fractional knapsack)
-- [ ] Eksperimen
+- [x] Eksperimen
 - [ ] Makalah dan slide
 
 ## Anggota
