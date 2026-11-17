@@ -9,7 +9,7 @@ Cara menjalankan (dari folder utama repo):
 
 import sys
 
-from algoritma import brute_force, greedy
+from algoritma import branch_and_bound, brute_force, greedy
 
 # Setiap contoh: berat, profit, kapasitas, dan jawaban di slide
 # dalam bentuk (x, total_profit, total_berat).
@@ -57,21 +57,25 @@ def main():
     semua_ok = True
     for contoh in CONTOH:
         print(contoh["nama"])
+        w, p, K = contoh["berat"], contoh["profit"], contoh["kapasitas"]
         for metode, harapan in contoh["jawaban"].items():
             if metode == "optimal":
-                label = "Brute Force (optimal)"
-                hasil = brute_force(contoh["berat"], contoh["profit"], contoh["kapasitas"])
+                # Brute Force dan Branch and Bound sama-sama harus menemukan solusi optimal
+                dijalankan = [
+                    ("Brute Force (optimal)", brute_force(w, p, K)),
+                    ("Branch and Bound", branch_and_bound(w, p, K)),
+                ]
             else:
-                label = f"Greedy by {metode}"
-                hasil = greedy(contoh["berat"], contoh["profit"], contoh["kapasitas"], metode)
+                dijalankan = [(f"Greedy by {metode}", greedy(w, p, K, metode))]
 
-            ok = hasil == harapan
-            semua_ok = semua_ok and ok
-            x, total_profit, total_berat = hasil
-            status = "OK   " if ok else "GAGAL"
-            print(f"  [{status}] {label:<22} X = {x}  profit = {total_profit}  berat = {total_berat}")
-            if not ok:
-                print(f"          seharusnya: X = {harapan[0]}  profit = {harapan[1]}  berat = {harapan[2]}")
+            for label, hasil in dijalankan:
+                ok = hasil == harapan
+                semua_ok = semua_ok and ok
+                x, total_profit, total_berat = hasil
+                status = "OK   " if ok else "GAGAL"
+                print(f"  [{status}] {label:<22} X = {x}  profit = {total_profit}  berat = {total_berat}")
+                if not ok:
+                    print(f"          seharusnya: X = {harapan[0]}  profit = {harapan[1]}  berat = {harapan[2]}")
         print()
 
     print("Semua hasil sesuai jawaban yang diharapkan." if semua_ok else "Ada hasil yang tidak sesuai.")

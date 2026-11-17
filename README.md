@@ -32,6 +32,7 @@ src/
   data_utils.py                baca data, ambil sampel, kapasitas
   preprocessing.py             membersihkan data
   uji_contoh_slide.py          menguji algoritma dengan contoh di slide kuliah
+  uji_bnb_vs_brute_force.py    memastikan B&B selalu sama dengan Brute Force (optimal)
 hasil/                         tabel dan grafik eksperimen
 docs/                          makalah dan slide presentasi
 ```
@@ -41,13 +42,14 @@ docs/                          makalah dan slide presentasi
 pip install -r requirements.txt
 python src/preprocessing.py
 python src/uji_contoh_slide.py
+python src/uji_bnb_vs_brute_force.py
 ```
 
 ## Status
 - [x] Preprocessing data
 - [x] Brute Force
 - [x] Greedy (by profit, by weight, by density)
-- [ ] Branch and Bound
+- [x] Branch and Bound (best-first, bound dari fractional knapsack)
 - [ ] Eksperimen
 - [ ] Makalah dan slide
 

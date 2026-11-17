@@ -8,6 +8,7 @@ Daftar ALGORITMA di bawah dipakai oleh file eksperimen. Untuk menambah
 algoritma baru, cukup tambahkan satu baris di daftar ini.
 """
 
+from .branch_and_bound import branch_and_bound, branch_and_bound_detail
 from .brute_force import brute_force
 from .greedy import STRATEGI, greedy
 
@@ -16,5 +17,5 @@ ALGORITMA = {
     "Greedy by profit": lambda berat, profit, kapasitas: greedy(berat, profit, kapasitas, "profit"),
     "Greedy by weight": lambda berat, profit, kapasitas: greedy(berat, profit, kapasitas, "weight"),
     "Greedy by density": lambda berat, profit, kapasitas: greedy(berat, profit, kapasitas, "density"),
-    # "Branch and Bound": branch_and_bound,   <- ditambahkan setelah B&B selesai
+    "Branch and Bound": branch_and_bound,
 }
