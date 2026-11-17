@@ -14,10 +14,14 @@ Cara menjalankan (dari folder utama repo):
     python src/preprocessing.py
 """
 
+from pathlib import Path
+
 import pandas as pd
 
-FILE_MENTAH = "data/nutrition.csv"
-FILE_BERSIH = "data/data_bersih.csv"
+# Lokasi file dihitung dari letak script ini, jadi bisa dijalankan dari folder mana pun
+FOLDER_DATA = Path(__file__).resolve().parent.parent / "data"
+FILE_MENTAH = FOLDER_DATA / "raw" / "nutrition.csv"
+FILE_BERSIH = FOLDER_DATA / "processed" / "data_bersih.csv"
 
 # Protein menyumbang 4 kkal per gram. Kalau 4 x protein melebihi total kalori
 # (diberi toleransi 10%), datanya tidak konsisten. Ubah ke False kalau
@@ -57,8 +61,9 @@ def main():
         print(f"Buang tidak konsisten  : -{len(janggal)} baris -> {list(janggal['Nama barang'])}")
 
     df = df.reset_index(drop=True)
+    FILE_BERSIH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(FILE_BERSIH, index=False)
-    print(f"Data bersih            : {len(df)} baris, disimpan ke {FILE_BERSIH}")
+    print(f"Data bersih            : {len(df)} baris, disimpan ke data/processed/{FILE_BERSIH.name}")
 
 
 if __name__ == "__main__":
