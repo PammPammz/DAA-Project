@@ -100,7 +100,7 @@ def grafik_waktu(per_n, nomor, judul, nama_file):
         if not baris.empty:
             garis(ax, baris["n"], baris["rata_waktu_ms"], algoritma)
     rapikan_sumbu(ax, log_y=True)
-    atur_sumbu_n(ax, sorted(data["n"].unique()), log_x=(nomor == 2))
+    atur_sumbu_n(ax, sorted(data["n"].unique()))
 
     # Di skenario 1 ketiga strategi Greedy waktunya hampir sama sehingga garisnya
     # berimpit (garis by profit tertutup). Keterangan diletakkan di bawah garisnya.
@@ -141,10 +141,7 @@ def grafik_kualitas(per_n):
             garis(ax, baris["n"], baris["rata_persen_optimal"], algoritma)
         rapikan_sumbu(ax)
         ax.set_ylim(0, 108)
-        atur_sumbu_n(ax, sorted(data["n"].unique()), log_x=(nomor == 2))
-        if nomor == 2:
-            # n = 1000 dan 1319 berdekatan di skala log; label dimiringkan agar tidak bertumpuk
-            plt.setp(ax.get_xticklabels(), rotation=35, ha="right", rotation_mode="anchor")
+        atur_sumbu_n(ax, sorted(data["n"].unique()))
         ax.set_title(judul[nomor], fontsize=9)
     daftar_ax[0].set_ylabel("Rata-rata protein (% dari optimal)")
     # Legenda di bawah kedua panel supaya panel mendapat lebar penuh

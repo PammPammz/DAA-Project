@@ -5,7 +5,7 @@ Skenario 1 (n kecil, semua algoritma):
     n = 10, 12, ..., 20 makanan, kapasitas sekali makan (AKG / 3).
     Solusi optimal = hasil Brute Force.
 Skenario 2 (n besar, tanpa Brute Force karena 2^n terlalu besar):
-    n = 100, 200, 500, 1000, 1319 makanan, kapasitas harian (AKG).
+    n = 100, 250, 500, 750, dan seluruh data makanan, kapasitas harian (AKG).
     Solusi optimal = hasil Branch and Bound (sudah terbukti selalu sama dengan
     Brute Force, lihat uji_bnb_vs_brute_force.py).
 
@@ -37,7 +37,9 @@ JENIS_KELAMIN = ["pria", "perempuan"]
 
 SKENARIO = {
     1: {"daftar_n": [10, 12, 14, 16, 18, 20], "per_makan": True, "pakai_brute_force": True},
-    2: {"daftar_n": [100, 200, 500, 1000, 1319], "per_makan": False, "pakai_brute_force": False},
+    # None = seluruh data bersih. Pada ukuran ini setiap seed berisi makanan yang sama
+    # (hanya urutannya berbeda), jadi pengulangannya hanya mengulang pengukuran waktu.
+    2: {"daftar_n": [100, 250, 500, 750, None], "per_makan": False, "pakai_brute_force": False},
 }
 
 # Algoritma cepat diulang beberapa kali dan diambil median waktunya supaya
@@ -83,6 +85,7 @@ def jalankan_skenario(nomor, df):
     baris = []
 
     for n in konfigurasi["daftar_n"]:
+        n = len(df) if n is None else n
         for jk in JENIS_KELAMIN:
             K = kapasitas(jk, per_makan=konfigurasi["per_makan"])
             for seed in DAFTAR_SEED:

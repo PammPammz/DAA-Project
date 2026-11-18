@@ -1,0 +1,240 @@
+Nama barang,berat,profit,alasan
+Agar-agar,0.0,0.0,Kalori = 0
+Es Mambo,152.0,0.0,Protein = 0
+Es Sirup,44.8,0.0,Protein = 0
+Gelatine,389.0,0.0,Protein = 0
+Gula Aren,368.0,0.0,Protein = 0
+Gula putih,394.0,0.0,Protein = 0
+Lemak Babi,902.0,0.0,Protein = 0
+Lemon Squasih,36.0,0.0,Protein = 0
+Lemonade,30.0,0.0,Protein = 0
+Melase,276.0,0.0,Protein = 0
+Minyak Hati Hiu (Eulamia),902.0,0.0,Protein = 0
+Minyak Ikan,902.0,0.0,Protein = 0
+Minyak Kacang Tanah,902.0,0.0,Protein = 0
+Minyak kedelai,883.0,0.0,Protein = 0
+Minyak Kelapa Sawit,902.0,0.0,Protein = 0
+Minyak Wijen,902.0,0.0,Protein = 0
+Minyak Zaitun,884.0,0.0,Protein = 0
+Permen,400.0,0.0,Protein = 0
+Rambutan Aceh,11.0,0.0,Protein = 0
+Rambutan sinyonya,4.0,0.0,Protein = 0
+Setrup sirup,213.0,0.0,Protein = 0
+Sirup,213.0,0.0,Protein = 0
+Ikan Gabus segar,74.0,25.2,Tidak konsisten (4 x protein > kalori)
+Jukku pallu kaloa masakan,15.0,15.2,Tidak konsisten (4 x protein > kalori)
+Kerang,59.0,18.0,Tidak konsisten (4 x protein > kalori)
+Kerupuk Sayong,46.7,17.3,Tidak konsisten (4 x protein > kalori)
+Ragi,136.0,43.0,Tidak konsisten (4 x protein > kalori)
+Ampas tahu mentah,67.0,5.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Asan kandis kering,261.0,0.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras giling mentah,357.0,8.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras giling var pelita mentah,369.0,9.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras giling var rojolele mentah,357.0,8.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras hitam mentah,351.0,8.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras jagung kuning kering mentah,358.0,5.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras jagung putih kering mentah,307.0,4.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras ketan hitam tumbuk mentah,360.0,8.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras ketan putih tumbuk mentah,361.0,7.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras ladang mentah,376.0,7.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras menir mentah,362.0,7.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras tumbuk mentah,354.0,7.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Beras tumbuk merah mentah,352.0,7.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Bihun Jagung mentah,354.0,0.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Bihun mentah,348.0,4.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Bonggol Pisang kering,245.0,3.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Buaya daging dendeng mentah,365.0,49.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Cabai merah kering,367.0,15.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Cantel mentah,366.0,11.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Cengkeh kering,330.0,5.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Coklat bubuk,311.0,8.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Daun salam  bubuk,301.0,14.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Gadeng/Gadung kering,322.0,2.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Gadung mentah,101.0,2.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ganyong mentah,95.0,1.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Asin kering,193.0,42.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Belut Segar mentah,82.0,6.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan cakalang asap mentah,204.0,34.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan cakalang asin mentah,198.0,36.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan calo/ peda mentah,81.0,11.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Gabus asap mentah,261.0,38.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Gabus kering,292.0,58.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan hiu kering,298.0,46.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan kayu kering,302.0,70.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan lomak asin mentah,258.0,40.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Mujair dendeng mentah,582.0,68.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan peda banjar mentah,156.0,28.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Pindang banjar mentah,157.0,28.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Pindang benggol mentah,170.0,31.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Pindang layang mentah,153.0,30.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Pindang selar mentah,142.0,27.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan sale lais mentah,415.0,61.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan saluang kering mentah,284.0,34.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Selar kering,194.0,38.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan selar kuning cue mentah,138.0,27.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Sepat kering,289.0,38.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan sunu asin mentah,199.0,34.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan telur asin mentah,358.0,20.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan tepung mentah,316.0,60.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Teri bubuk,277.0,60.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Teri kering,170.0,33.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Teri Kering tawar,331.0,68.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Teri Nasi kering,144.0,32.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan Teri tepung,347.0,48.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Itik alabio daging dendeng mentah,496.0,30.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Jagung kuning pipil kering mentah,366.0,9.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Jagung kuning tepung,355.0,9.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Jagung muda kuning mentah,147.0,5.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Jagung pipil var. harapan kering,367.0,6.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Jagung pipil var. metro kering,368.0,5.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Jampang huma mentah,350.0,6.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Jamur kuping kering,294.0,16.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang babi kering,341.0,30.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang belimbing (kecipir) kering,400.0,34.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang bogor kering,370.0,16.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang gude biji kering,316.0,20.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang hijau kering,323.0,22.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang hijau var. bakti kering,350.0,17.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang hijau var. siwalik kering,339.0,20.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang hitam kering,346.0,16.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang kedelai kering,381.0,40.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang kuning kering,355.0,17.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang lebui /iris kering,346.0,16.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang mentega kering,344.0,16.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang merah /banda kering,350.0,13.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang merah kering,314.0,22.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang Merah kering rebus,158.0,10.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang merah tua kering,280.0,16.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang tanah kering,525.0,27.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang tolo / tunggak kering,331.0,24.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang tunis kering,351.0,12.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang uci kering,358.0,23.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kacang urei kering,354.0,12.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kelapa hutan kering,623.0,2.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kenari banda kering,616.0,13.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kerang asap mentah,393.0,38.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kerang dendeng mentah,357.0,41.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kerupuk kemplang  (ikan) mentah,325.0,1.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kerupuk Melinjo mentah,345.0,12.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Kopi bubuk instant,129.0,12.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Koro andong kering,356.0,20.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Maizena tepung,341.0,0.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Menjangan daging dendeng mentah,322.0,55.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Mi kering,339.0,10.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Mie kering,337.0,7.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Petis udang kering,345.0,23.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Rebon kering,299.0,29.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Rebung laut mentah,320.0,7.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Rusa daging dendeng mentah,536.0,40.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Sagu aren kering,355.0,0.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Sagu singkong kering,362.0,0.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Sapi daging dendeng mentah,301.0,55.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Sapi paru dendeng mentah,360.0,57.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Sari Kedelai bubuk,344.0,30.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Serbuk Coklat,298.0,8.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Susu asam untuk bayi bubuk,418.0,19.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Susu bubuk,513.0,24.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Susu skim bubuk,359.0,35.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Suweg mentah,69.0,1.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tales mentah,98.0,1.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Teh hijau daun kering,300.0,28.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Teh melati daun kering,299.0,24.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tekokak kering,294.0,8.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tempe kedelai murni mentah,201.0,20.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Arrowroot,355.0,0.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Beras,364.0,7.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung beras mentah,353.0,7.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Ganyong,353.0,0.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Gaplek,363.0,1.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Garut (arrowroot),355.0,0.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Hunkwee,364.0,4.5,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Ikan,316.0,60.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Jagung Kuning,355.0,9.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung jagung putih,355.0,9.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Jalejo,388.0,19.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Kacang Kedelai,347.0,35.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Kentang,347.0,0.3,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Mocaf,350.0,1.2,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Pisang,338.0,2.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Sagu,353.0,0.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Sente,326.0,4.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung singkong/ Tapioka,363.0,1.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Sukun,353.0,2.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Susu,509.0,24.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Susu Asam untuk bayi,418.0,19.0,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Susu Skim,362.0,35.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Tales Beneng,332.0,5.7,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Terigu,365.0,8.9,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Tepung Ubi Ungu,354.0,2.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Teripang dendeng mentah,462.0,39.1,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Udang kering,295.0,62.4,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Udang kering mentah,278.0,62.6,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Udang papay mentah,273.0,47.8,"Bentuk tidak siap santap (mentah, kering, tepung, bubuk)"
+Ikan hiu segar,57.0,10.7,Satwa dilindungi atau satwa liar
+Kura-kura,83.0,19.1,Satwa dilindungi atau satwa liar
+Lawar penyu masakan,141.0,23.0,Satwa dilindungi atau satwa liar
+Penyu serapah masakan,174.0,13.1,Satwa dilindungi atau satwa liar
+Sate penyu masakan,179.0,22.5,Satwa dilindungi atau satwa liar
+Telur Penyu,144.0,12.0,Satwa dilindungi atau satwa liar
+Bongkrek (tempe bungkil),119.0,4.4,Tidak lazim dikonsumsi sehari-hari
+Bungkil Biji Karet,333.0,29.3,Tidak lazim dikonsumsi sehari-hari
+Bungkil Kacang Tanah,336.0,37.4,Tidak lazim dikonsumsi sehari-hari
+Bungkil Kelapa,368.0,23.0,Tidak lazim dikonsumsi sehari-hari
+Burung sarang segar,281.0,37.5,Tidak lazim dikonsumsi sehari-hari
+Coto mangkasara kuda masakan,96.0,6.8,Tidak lazim dikonsumsi sehari-hari
+Daging Kuda,118.0,18.1,Tidak lazim dikonsumsi sehari-hari
+Keong,64.0,12.0,Tidak lazim dikonsumsi sehari-hari
+Kuda daging segar,113.0,18.1,Tidak lazim dikonsumsi sehari-hari
+Sarang Burung,281.0,37.5,Tidak lazim dikonsumsi sehari-hari
+Tempe bongkrek,119.0,4.4,Tidak lazim dikonsumsi sehari-hari
+Ulat sagu panggang,380.0,11.9,Tidak lazim dikonsumsi sehari-hari
+Ulat sagu segar,241.0,5.8,Tidak lazim dikonsumsi sehari-hari
+Ayam dideh/darah segar,75.0,13.8,Non-halal
+Babi daging gemuk segar,453.0,11.9,Non-halal
+Babi daging kurus segar,371.0,14.1,Non-halal
+Babi ginjal segar,110.0,16.3,Non-halal
+Babi hati segar,129.0,19.7,Non-halal
+Babi hutan masak rica masakan,491.0,24.6,Non-halal
+Daging Babi Gemuk,457.0,11.6,Non-halal
+Daging Babi Kurus,376.0,14.1,Non-halal
+Dideh darah ayam,77.0,13.8,Non-halal
+Dideh darah sapi,104.0,21.9,Non-halal
+Ginjal Babi,114.0,16.3,Non-halal
+Hati Babi,134.0,19.7,Non-halal
+Katak,73.0,16.4,Non-halal
+Kodok segar,73.0,16.4,Non-halal
+Lawar babi masakan,174.0,17.0,Non-halal
+Lemak Babi (Bacon),630.0,9.1,Non-halal
+Pepare ular segar,19.0,0.6,Non-halal
+RW anjing masakan,198.0,24.6,Non-halal
+Sapi dideh/darah,98.0,21.9,Non-halal
+Bayam merah segar,41.0,2.2,"Nama dobel (makanan sama, nama berbeda)"
+Beras parboiled,353.0,6.8,"Nama dobel (makanan sama, nama berbeda)"
+Bika Ambon,225.7,3.0,"Nama dobel (makanan sama, nama berbeda)"
+Daun kacang panjang segar,30.0,3.1,"Nama dobel (makanan sama, nama berbeda)"
+Daun katuk segar,59.0,6.4,"Nama dobel (makanan sama, nama berbeda)"
+Daun oyong segar,22.0,1.0,"Nama dobel (makanan sama, nama berbeda)"
+Daun pakis segar,39.0,4.5,"Nama dobel (makanan sama, nama berbeda)"
+Daun semanggi segar,45.0,4.4,"Nama dobel (makanan sama, nama berbeda)"
+Daun singkong segar,50.0,6.2,"Nama dobel (makanan sama, nama berbeda)"
+Empal Goreng,590.0,18.5,"Nama dobel (makanan sama, nama berbeda)"
+Ginjal Domba,105.0,16.6,"Nama dobel (makanan sama, nama berbeda)"
+Ikan Bekasang,138.0,14.0,"Nama dobel (makanan sama, nama berbeda)"
+Ikan Belut Segar goreng,417.0,25.9,"Nama dobel (makanan sama, nama berbeda)"
+Kacang merah segar,171.0,11.0,"Nama dobel (makanan sama, nama berbeda)"
+Kacang tanah sari,561.0,25.5,"Nama dobel (makanan sama, nama berbeda)"
+Kakap,92.0,20.0,"Nama dobel (makanan sama, nama berbeda)"
+Kambing daging segar,149.0,16.6,"Nama dobel (makanan sama, nama berbeda)"
+Kerbau daging segar,79.0,18.7,"Nama dobel (makanan sama, nama berbeda)"
+Rebon udang kecil segar,81.0,16.2,"Nama dobel (makanan sama, nama berbeda)"
+Sapi ginjal segar,137.0,15.0,"Nama dobel (makanan sama, nama berbeda)"
+Telur bebek bagian putih segar,54.0,11.0,"Nama dobel (makanan sama, nama berbeda)"
+Tempe kacang belimbing,212.0,17.5,"Nama dobel (makanan sama, nama berbeda)"
+Tempe koro benguk,141.0,10.2,"Nama dobel (makanan sama, nama berbeda)"
+Terasi merah,174.0,30.0,"Nama dobel (makanan sama, nama berbeda)"
+Terong segar,28.0,1.1,"Nama dobel (makanan sama, nama berbeda)"
+Tespong daun,59.0,2.9,"Nama dobel (makanan sama, nama berbeda)"
+Tim (nasi tim),120.0,2.4,"Nama dobel (makanan sama, nama berbeda)"
+Tumis bayam bersantan,48.0,1.4,"Nama dobel (makanan sama, nama berbeda)"
+Ubi jalar merah segar,151.0,1.6,"Nama dobel (makanan sama, nama berbeda)"
+Usus Sapi,130.0,14.0,"Nama dobel (makanan sama, nama berbeda)"
