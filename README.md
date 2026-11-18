@@ -84,7 +84,7 @@ Eksperimen: setiap kombinasi n × jenis kelamin dijalankan dengan 10 seed (sampe
 - (nama – NIM)
 - (nama – NIM)
 - (nama – NIM)
-- (nama – NIM, jika anggota ke-4)
+
 
 ## Jurnal tujuan
 (diisi setelah jurnal dipilih)

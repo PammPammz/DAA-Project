@@ -1,14 +1,4 @@
-"""
-Menguji bahwa Branch and Bound selalu menemukan solusi optimal, dengan
-membandingkannya dengan Brute Force pada banyak sampel acak dari data asli.
-
-Untuk setiap sampel diperiksa:
-    1. total protein B&B sama dengan Brute Force (optimal)
-    2. total kalori B&B tidak melebihi kapasitas
-
-Cara menjalankan (dari folder utama repo):
-    python src/uji_bnb_vs_brute_force.py
-"""
+"""Cek apakah hasil B&B selalu sama dengan Brute Force di sampel acak dari data asli."""
 
 import sys
 
@@ -21,12 +11,12 @@ DAFTAR_SEED = range(1, 11)
 
 def main():
     df = baca_data()
-    jumlah_uji = 0
-    jumlah_sama = 0
+    total_uji = 0
+    total_sama = 0
 
     for n in DAFTAR_N:
-        for jenis_kelamin in ["pria", "perempuan"]:
-            K = kapasitas(jenis_kelamin, per_makan=True)
+        for jk in ["pria", "perempuan"]:
+            K = kapasitas(jk, per_makan=True)
             sama = 0
             total_simpul = 0
             for seed in DAFTAR_SEED:
@@ -34,25 +24,19 @@ def main():
                 _, profit_bf, _ = brute_force(w, p, K)
                 hasil = branch_and_bound_detail(w, p, K)
 
-                cocok = abs(hasil["total_profit"] - profit_bf) < 1e-9
-                muat = hasil["total_berat"] <= K
-                if cocok and muat:
+                if abs(hasil["total_profit"] - profit_bf) < 1e-9 and hasil["total_berat"] <= K:
                     sama += 1
                 else:
-                    print(f"  BEDA: n={n} seed={seed} {jenis_kelamin}: "
-                          f"B&B={hasil['total_profit']} Brute Force={profit_bf}")
+                    print(f"  BEDA: n={n} seed={seed} {jk}: B&B={hasil['total_profit']} BF={profit_bf}")
                 total_simpul += hasil["simpul_dibangkitkan"]
 
-            jumlah_uji += len(DAFTAR_SEED)
-            jumlah_sama += sama
-            rata_simpul = total_simpul / len(DAFTAR_SEED)
-            simpul_pohon_penuh = 2 ** (n + 1) - 1
-            print(f"n={n:<2} {jenis_kelamin:<9} K={K:6.1f}  sama dengan Brute Force: "
-                  f"{sama}/{len(DAFTAR_SEED)}  rata-rata simpul B&B: {rata_simpul:6.1f} "
-                  f"dari {simpul_pohon_penuh} simpul pohon penuh")
+            total_uji += len(DAFTAR_SEED)
+            total_sama += sama
+            print(f"n={n:<2} {jk:<9} K={K:6.1f}  sama: {sama}/{len(DAFTAR_SEED)}  "
+                  f"rata-rata simpul B&B: {total_simpul / len(DAFTAR_SEED):6.1f} dari {2 ** (n + 1) - 1}")
 
-    print(f"\nTotal: {jumlah_sama}/{jumlah_uji} sampel, B&B sama dengan Brute Force.")
-    sys.exit(0 if jumlah_sama == jumlah_uji else 1)
+    print(f"\nTotal: {total_sama}/{total_uji} sampel, B&B sama dengan Brute Force.")
+    sys.exit(0 if total_sama == total_uji else 1)
 
 
 if __name__ == "__main__":
